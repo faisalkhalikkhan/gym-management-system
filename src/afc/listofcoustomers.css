@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+.mainFxmlClass {
+    -fx-background-color: #E7E7DE;
+}
+.tab-header-background {
+    -fx-background-color: #0F3057;
+}
+.tab {
+    -fx-background-color: #00587A;
+}
+.tab-label {
+    -fx-text-fill: #0F3057;
+}

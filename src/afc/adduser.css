@@ -1,0 +1,81 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #FCF8E8;
+}
+.colorPlan {
+    -fx-background-color: linear-gradient(to right, #61B15A, #ADCE74);
+    -fx-background-radius: 10px;
+}
+.colorPlan:pressed {
+    -fx-background-color: linear-gradient(to right, #583D72, #9F5F80);
+    -fx-background-radius: 10px;
+}
+.colorPlan2 {
+    -fx-background-color: linear-gradient(to right, #FFF76A, #FFCE89);
+    -fx-background-radius: 10px;
+}
+.colorPlan2:pressed {
+    -fx-background-color: linear-gradient(to right, #583D72, #9F5F80);
+    -fx-background-radius: 10px;
+}
+.colorPlan3 {
+    -fx-background-color: linear-gradient(to right, #54ff00, #91ff5a);
+    -fx-background-radius: 10px;
+}
+.colorPlan3:pressed {
+    -fx-background-color: linear-gradient(to right, #583D72, #9F5F80);
+    -fx-background-radius: 10px;
+}
+
+.uncolored-card {
+    -fx-background-color: linear-gradient(to right, #2b2b2e, #c4c4c5);
+    -fx-background-radius: 10px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+.tab-pane {
+    -fx-tab-min-width: 90px;
+}
+.tab {
+    -fx-background-color: 0 1 0 1, 0 , 0;
+}
+.tab-pane .tab {
+    -fx-background-color: #e6e6e6;
+}
+.tab-pane .tab:selected {
+    -fx-background-color: #3c3c3c;
+}
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
+.tf-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #dedee4;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-fill: #3c3c3c;
+}
+
+.button-expense {
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #4a4a4a;
+}
+.button-expense:hover {
+    -fx-background-color: #DA9FF9;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+}
+
+

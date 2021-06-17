@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="789.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afc.LavduLalitController">
+    <stylesheets>
+        <URL value="@lavdulalit.css" />
+    </stylesheets>
+   <children>
+      <Label fx:id="heroName" layoutX="330.0" layoutY="15.0" text="Hello Lavdu" textFill="#2c2929">
+         <font>
+            <Font name="Gill Sans MT Ext Condensed Bold" size="43.0" />
+         </font>
+      </Label>
+      <HBox layoutY="64.0" prefHeight="236.0" prefWidth="789.0" spacing="55.0">
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+         <children>
+            <AnchorPane fx:id="slide1" onMouseClicked="#set3Months" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="125.0" fitWidth="200.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/b5.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" layoutY="121.0" prefHeight="112.0" prefWidth="200.0" style="-fx-background-color: #f8f5f5;">
+                     <children>
+                        <Label text="3 Months Plan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Only At ₹3999.">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label text="Without Personal Trainer">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <AnchorPane fx:id="slide2" onMouseClicked="#set6Months" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="125.0" fitWidth="200.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/b9.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" layoutY="121.0" prefHeight="112.0" prefWidth="200.0" style="-fx-background-color: #f8f5f5;">
+                     <children>
+                        <Label text="6 Months Plan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Only At ₹6999.">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label text="Without Personal Trainer">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <AnchorPane fx:id="slide3" onMouseClicked="#set1Year" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="131.0" fitWidth="200.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/b8.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" layoutY="121.0" prefHeight="112.0" prefWidth="200.0" style="-fx-background-color: #f8f5f5;">
+                     <children>
+                        <Label text="One Year Plan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Only At ₹11999.">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label text="Without Personal Trainer">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <Label layoutX="48.0" layoutY="342.0" text="Plan Launching Date">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="jDate" layoutX="30.0" layoutY="365.0" promptText="Joining Date" />
+      <Label fx:id="eDateLabel" layoutX="48.0" layoutY="412.0" text="Expire On :">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="61.0" layoutY="453.0" mnemonicParsing="false" onAction="#showExpire" text="Check">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label fx:id="amountHolder" layoutX="343.0" layoutY="339.0" text="Amount">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="discountLabel" layoutX="294.0" layoutY="365.0" promptText="Discount" />
+      <Button layoutX="346.0" layoutY="399.0" mnemonicParsing="false" onAction="#showDiscount" text="Check">
+         <effect>
+            <DropShadow color="#0d0000" />
+         </effect>
+      </Button>
+      <VBox alignment="CENTER" layoutX="525.0" layoutY="339.0" prefHeight="200.0" prefWidth="200.0" spacing="25.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#makeABill" prefHeight="25.0" prefWidth="153.0" text="Send Bill">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#submitDetails" prefHeight="25.0" prefWidth="153.0" text="Update">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </VBox>
+      <RadioButton layoutX="325.0" layoutY="457.0" mnemonicParsing="false" onAction="#trainerOk" text="Wanna Trainer" />
+   </children>
+</AnchorPane>

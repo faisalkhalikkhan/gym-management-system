@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="514.0" prefWidth="755.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="afc.DueCapController">
+    <stylesheets>
+        <URL value="@duecap.css" />
+    </stylesheets>
+   <children>
+      <Label fx:id="heroNameL" layoutX="316.0" layoutY="5.0" text="Hello Lavdu" textFill="#f5f0f0">
+         <font>
+            <Font name="Baskerville Old Face" size="26.0" />
+         </font>
+      </Label>
+      <HBox layoutX="131.0" layoutY="71.0" prefHeight="255.0" prefWidth="501.0" spacing="45.0">
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+         <children>
+            <AnchorPane fx:id="slide1" onMouseClicked="#set6Months" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="206.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/b6.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox layoutX="-1.0" layoutY="127.0" prefHeight="98.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+                     <children>
+                        <Label text="6 Months Plan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Only at ₹12999">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="Without personal trainer">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="slide2" onMouseClicked="#setOneYear" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/b4.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox layoutX="-1.0" layoutY="127.0" prefHeight="98.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+                     <children>
+                        <Label text="One Year Plan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label text="Only at ₹23999">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="Without personal trainer">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <Label layoutX="76.0" layoutY="336.0" text="Plan Launching Date" textFill="#f2efef">
+         <font>
+            <Font name="Bell MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="jDate" layoutX="73.0" layoutY="364.0" />
+      <Label fx:id="eDate" layoutX="76.0" layoutY="413.0" prefHeight="22.0" prefWidth="174.0" text="Expire On:" textFill="#e4e0e0">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="137.0" layoutY="451.0" mnemonicParsing="false" onAction="#showExpire" text="Check">
+         <effect>
+            <DropShadow color="#dddddd" />
+         </effect>
+      </Button>
+      <Label fx:id="amountLabel" layoutX="369.0" layoutY="332.0" text="Amount" textFill="#dad5d5">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="discount" layoutX="339.0" layoutY="364.0" promptText="Discount" />
+      <Button layoutX="388.0" layoutY="401.0" mnemonicParsing="false" onAction="#showAmount" text="Check">
+         <effect>
+            <DropShadow color="#d0c9c9" />
+         </effect>
+      </Button>
+      <RadioButton layoutX="343.0" layoutY="443.0" mnemonicParsing="false" onAction="#trainerChecker" text="Wanna Trainer" textFill="#ebe9e9">
+         <font>
+            <Font name="Bell MT" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow color="#dad8d8" />
+         </effect>
+      </RadioButton>
+      <VBox alignment="CENTER" layoutX="549.0" layoutY="327.0" prefHeight="172.0" prefWidth="187.0" spacing="15.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#makeBill" prefHeight="25.0" prefWidth="99.0" text="Send Bill">
+               <effect>
+                  <DropShadow color="#bfbcbc" />
+               </effect>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#submitUpdate" prefHeight="25.0" prefWidth="99.0" text="Update">
+               <effect>
+                  <DropShadow color="#d7d3d3" />
+               </effect>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+/*
+ * Empty Stylesheet file.
+#61B15A
+#ADCE74
+#FFF76A
+#FFCE89
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #A3DDCB;
+}
+.text {
+    -fx-fill: #61B15A;
+}
+.t {
+    -fx-fill: #00587A;
+}
+.uncolored-card {
+    -fx-background-color: linear-gradient(to right, #61B15A, #ADCE74);
+    -fx-background-radius: 10px;
+}
+.tf-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #dedee4;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-fill: #00587A;
+}

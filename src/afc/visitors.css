@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.#45626b
+ */
+
+.mainFxmlClass {
+    -fx-background-color: #FFE6E6;
+}
+.text {
+    -fx-fill: #6155A6;
+}

@@ -1,0 +1,43 @@
+/* 
+    Created on : Dec 20, 2020, 12:49:42 PM
+    Author     : LENOVO
+*/
+.parent {
+    -fx-background-color: transparent;
+}
+.pane {
+    -fx-background-color: #2196f3;
+}
+.btn {
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+
+.btn :hover {
+    -fx-background-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+.white-pane {
+    -fx-background-color: #fff;
+}
+.blue-pane {
+    -fx-background-color: #151928;
+}
+.tf-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #dedee4;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-fill: #fff;
+}
+.blue-btn {
+    -fx-background-color: #2196f3;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+}

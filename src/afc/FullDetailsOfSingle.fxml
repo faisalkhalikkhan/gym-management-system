@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="1060.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afc.FullDetailsOfSingleController">
+    <stylesheets>
+        <URL value="@fulldetailsofsingle.css" />
+    </stylesheets>
+   <children>
+      <ImageView fx:id="userPhotoHolder" fitHeight="201.0" fitWidth="169.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@developerImage.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#f8f0f0" layoutX="400.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Complete Details">
+         <font>
+            <Font name="Book Antiqua Bold" size="59.0" />
+         </font>
+      </Text>
+      <Label fx:id="userName" layoutX="259.0" layoutY="96.0" prefHeight="38.0" prefWidth="280.0" text="Name :" textFill="#f5f0f0">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="8.0" layoutY="249.0" prefHeight="99.0" prefWidth="1052.0" spacing="60.0">
+         <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </padding>
+         <children>
+            <Label fx:id="userDateOfbirth" text="Date Of Birth :2020/12/01" textFill="#f5ebeb">
+               <font>
+                  <Font name="Book Antiqua" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="userDateOfJoining" text="Date Of Joining :2020/12/01" textFill="#eeecec">
+               <font>
+                  <Font name="Book Antiqua" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="userDateExpire" text="Plan Will Expire On :2020/12/01" textFill="#e4d7d7">
+               <font>
+                  <Font name="Book Antiqua" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="348.0" prefHeight="99.0" prefWidth="1052.0" spacing="60.0">
+         <padding>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </padding>
+         <children>
+            <Label fx:id="userEmail" prefHeight="38.0" prefWidth="322.0" text="Email : Lavdu@gmail.com" textFill="#f5f0f0">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="userFees" prefHeight="38.0" prefWidth="184.0" text="Fees:" textFill="#f5f0f0">
+               <font>
+                  <Font name="Book Antiqua" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="UserIsPt" text="I do not have Personal Trainer" textFill="#f5f0f0">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label fx:id="userPhone" layoutX="265.0" layoutY="150.0" prefHeight="38.0" prefWidth="265.0" text="Phone :" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="583.0" layoutY="97.0" text="Address :" textFill="#f5f0f0">
+         <font>
+            <Font name="Book Antiqua" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="userAddress" layoutX="677.0" layoutY="108.0" prefHeight="119.0" prefWidth="211.0" text="Address" textFill="#f8f4f4">
+         <font>
+            <Font name="French Script MT" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="208.0" prefHeight="38.0" prefWidth="201.0" text="Adhaar Card Number:" textFill="#f5eeee">
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="adhaar" layoutX="466.0" layoutY="212.0" prefHeight="38.0" prefWidth="151.0" text="00 0000 00 000">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="UserAlternatePhone" layoutX="27.0" layoutY="466.0" prefHeight="38.0" prefWidth="393.0" text="Alternative Phone:" textFill="#ebe7e7">
+         <font>
+            <Font name="Book Antiqua" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="father" layoutX="466.0" layoutY="485.0" prefHeight="38.0" prefWidth="280.0" text="Father Name :" textFill="#f5f0f0">
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="plan" layoutX="783.0" layoutY="485.0" prefHeight="38.0" prefWidth="265.0" text="Plan :" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

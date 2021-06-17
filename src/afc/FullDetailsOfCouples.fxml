@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="638.0" prefWidth="944.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afc.FullDetailsOfCouplesController">
+    <stylesheets>
+        <URL value="@fulldetailsofcouples.css" />
+    </stylesheets>
+   <children>
+      <Text fill="#456268" layoutX="399.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details">
+         <font>
+            <Font name="French Script MT" size="60.0" />
+         </font>
+      </Text>
+      <Separator layoutX="364.0" layoutY="72.0" prefWidth="200.0" />
+      <VBox layoutX="14.0" layoutY="82.0" prefHeight="554.0" prefWidth="925.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="206.0" prefWidth="925.0" spacing="35.0">
+               <children>
+                  <ImageView fx:id="cupPhotoHolder" fitHeight="205.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@developerImage.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" prefHeight="206.0" prefWidth="350.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="capMaleName" prefHeight="38.0" prefWidth="349.0" text="Male Name :" textFill="#456268">
+                           <font>
+                              <Font name="French Script MT" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="cupFemaleName" prefHeight="38.0" prefWidth="349.0" text="Female Name :" textFill="#456268">
+                           <font>
+                              <Font name="French Script MT" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="cupFatherName" prefHeight="38.0" prefWidth="349.0" text="Father Name :" textFill="#456268">
+                           <font>
+                              <Font name="French Script MT" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="206.0" prefWidth="350.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="cupMaleDOB" prefHeight="38.0" prefWidth="349.0" text="Male Date Of Birth:" textFill="#456268">
+                           <font>
+                              <Font name="French Script MT" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="cupFemaleDOB" prefHeight="38.0" prefWidth="349.0" text="Female Date Of Birth:" textFill="#456268">
+                           <font>
+                              <Font name="French Script MT" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="cupContact" prefHeight="38.0" prefWidth="349.0" text="Contact Number :" textFill="#456268">
+                           <font>
+                              <Font name="French Script MT" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="220.0" prefWidth="925.0">
+               <children>
+                  <VBox alignment="CENTER_LEFT" prefHeight="220.0" prefWidth="513.0" spacing="10.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="484.0">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="274.0" text="Male Adhaar Card Number: " textFill="#456268">
+                                 <font>
+                                    <Font name="French Script MT" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupAdhaarMale" prefHeight="38.0" prefWidth="217.0" text="Male Adhaar Card Number: " textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Mistral" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="484.0">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="274.0" text="Female Adhaar Card Number:" textFill="#456268">
+                                 <font>
+                                    <Font name="French Script MT" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupFemaleAdhaar" prefHeight="38.0" prefWidth="217.0" text="Male Adhaar Card Number: " textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Mistral" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="484.0">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="184.0" text="Alternative Phone :" textFill="#456268">
+                                 <font>
+                                    <Font name="French Script MT" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupAlternatePhone" prefHeight="38.0" prefWidth="297.0" text="Male Adhaar Card Number: " textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Mistral" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="220.0" prefWidth="398.0" spacing="10.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="484.0">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="181.0" text="Date Of Joining :" textFill="#456268">
+                                 <font>
+                                    <Font name="French Script MT" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupJoining" prefHeight="38.0" prefWidth="217.0" text="Male Adhaar Card Number: " textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Mistral" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="484.0">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="173.0" text="Plan Expired On :" textFill="#456268">
+                                 <font>
+                                    <Font name="French Script MT" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupExpire" prefHeight="38.0" prefWidth="217.0" text="Male Adhaar Card Number: " textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Mistral" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="48.0" prefWidth="484.0">
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="160.0" text="Plan          :" textFill="#456268">
+                                 <font>
+                                    <Font name="French Script MT" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupPlan" prefHeight="38.0" prefWidth="297.0" text="Male Adhaar Card Number: " textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Mistral" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="129.0" prefWidth="925.0">
+               <children>
+                  <VBox prefHeight="129.0" prefWidth="378.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="378.0">
+                           <children>
+                              <Label text="Fees      :" textFill="#456268">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupFees" text="₹32999" textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="304.0" spacing="55.0">
+                           <children>
+                              <Label text="Personal Trainer:" textFill="#456268">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupTrainer" text="True" textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="378.0" spacing="40.0">
+                           <children>
+                              <Label text="Plan     :" textFill="#456268">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupPlan" text="3 Months" textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="129.0" prefWidth="378.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="39.0" prefWidth="378.0">
+                           <children>
+                              <Label text="Email            :" textFill="#456268">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupEmail" text="xyz@gmail.com" textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Perpetua" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="92.0" prefWidth="377.0" spacing="55.0">
+                           <children>
+                              <Label text="Address :" textFill="#456268">
+                                 <font>
+                                    <Font name="Perpetua" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cupAddress" prefHeight="86.0" prefWidth="205.0" text="Hou" textFill="#79a3b1">
+                                 <font>
+                                    <Font name="Perpetua" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

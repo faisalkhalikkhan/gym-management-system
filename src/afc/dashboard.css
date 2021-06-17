@@ -1,0 +1,38 @@
+/*
+ * Empty Stylesheet file.
+ */
+.hero-text {
+    -fx-background-color:  #fff;
+    -fx-fill: whitesmoke;
+}
+.hover-border:hover {
+    -fx-border-color: #0fbcf9;
+    -fx-border-width: 0px 0px 0px 2px;
+    -fx-background-color: #34e7e4e0;
+    -fx-cursor: hand;
+}
+.colored-card {
+    -fx-background-color: linear-gradient(to right, #1a3384, #2b49b3);
+    -fx-background-radius: 10px;
+}
+.uncolored-card {
+    -fx-background-color: linear-gradient(to right, #2b2b2e, #c4c4c5);
+    -fx-background-radius: 10px;
+}
+.trans-box {
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #c1c1c1;
+    -fx-border-style: dashed;
+}
+.button-expense {
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #4a4a4a;
+}
+.button-expense:hover {
+    -fx-background-color: #2b49b3;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #fff;
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="657.0" prefWidth="975.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="afc.PlanController">
+    <stylesheets>
+        <URL value="@plan.css" />
+    </stylesheets>
+   <children>
+      <Separator layoutX="334.0" layoutY="291.0" prefHeight="5.0" prefWidth="283.0" />
+      <AnchorPane fx:id="slide1" layoutX="47.0" layoutY="18.0" prefHeight="258.0" prefWidth="238.0" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="15.0">
+         <children>
+            <ImageView fitHeight="149.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/b5.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" layoutY="149.0" prefHeight="115.0" prefWidth="240.0" spacing="10.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3 Months Plan">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Only At ₹3999">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Without Personal Trainer">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow color="#7c0000" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="slide2" layoutX="341.0" layoutY="18.0" prefHeight="258.0" prefWidth="238.0" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="15.0">
+         <children>
+            <ImageView fitHeight="149.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/b9.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" layoutY="149.0" prefHeight="115.0" prefWidth="240.0" spacing="10.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6 Months Plan">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Only At ₹6999">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Without Personal Trainer">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow color="#09c4d9" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="slide3" layoutX="637.0" layoutY="18.0" prefHeight="258.0" prefWidth="238.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="15.0">
+         <children>
+            <ImageView fitHeight="155.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/b8.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" layoutY="149.0" prefHeight="116.0" prefWidth="250.0" spacing="10.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1 Year Plan">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Only At ₹11999">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Without Personal Trainer">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow color="#9dff00" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="slideC1" layoutX="209.0" layoutY="317.0" prefHeight="258.0" prefWidth="238.0" AnchorPane.leftAnchor="210.0" AnchorPane.topAnchor="315.0">
+         <children>
+            <ImageView fitHeight="169.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/b4.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" layoutY="149.0" prefHeight="115.0" prefWidth="240.0" spacing="10.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6 Months Plan">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Only At ₹12999">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Without Personal Trainer">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow color="#aee800" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="slideC2" layoutX="520.0" layoutY="316.0" prefHeight="258.0" prefWidth="238.0" AnchorPane.leftAnchor="590.0" AnchorPane.topAnchor="315.0">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="275.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/b3.jpg" />
+               </image>
+            </ImageView>
+            <VBox alignment="CENTER_LEFT" layoutY="149.0" prefHeight="115.0" prefWidth="242.0" spacing="10.0" style="-fx-background-color: #fff;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1 Year Plan">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Only At ₹23999">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Without Personal Trainer">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow color="#00ff6d" />
+         </effect>
+      </AnchorPane>
+      <Button layoutX="44.0" layoutY="542.0" mnemonicParsing="false" onAction="#slideShow" text="Show" />
+      <Button layoutX="900.0" layoutY="542.0" mnemonicParsing="false" onAction="#backToDashboard" text="Back" />
+   </children>
+</AnchorPane>
